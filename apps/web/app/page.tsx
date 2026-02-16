@@ -21,6 +21,7 @@ const ThemeImage = (props: Props) => {
 
 export default function Home() {
   console.log(sayHello("web"));
+
   return (
     <div className={styles.page}>
       <main className={styles.main}>
