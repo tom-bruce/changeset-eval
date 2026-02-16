@@ -63,7 +63,7 @@ importers:
       '@repo/ui':
         specifier: workspace:*
         version: link:../../packages/ui
-      '@repo/utils':
+      '@tom-bruce/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       next:
