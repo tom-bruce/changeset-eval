@@ -49,6 +49,9 @@ jobs:
       - name: Install dependencies
         shell: bash
         run: pnpm install
+      - name: Build packages
+        shell: bash
+        run: pnpm run build --filter=@tom-bruce/utils
       - name: Typecheck
         run: pnpm run check-types
 
