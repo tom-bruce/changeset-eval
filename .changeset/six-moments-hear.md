@@ -1,5 +1,5 @@
 ---
-"@repo/utils": minor
+"@tom-bruce/utils": minor
 ---
 
 Added sayHello utility
